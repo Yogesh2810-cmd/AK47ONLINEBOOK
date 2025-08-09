@@ -24,7 +24,8 @@
     }
 
     header {
-      background: #ab87e4;
+      background: linear-gradient(270deg, blue, purple);
+      animation: gradientFlow 6s ease infinite;
       padding: 10px 15px;
       display: flex;
       justify-content: space-between;
@@ -95,12 +96,15 @@
 
     .about {
       padding: 40px 20px;
-      background-color: #031634;
+      background-image: url('./images/casino.jpeg');
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 30px;
       align-items: center;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
 
     .about-text {
@@ -114,7 +118,8 @@
     }
 
     .about-text p {
-      color: #ccc;
+      color: #00ffbb;
+      font-weight: 600;
       font-size: 1rem;
     }
 
@@ -344,7 +349,7 @@
 
       .hero {
         height: 72vh;
-        background-image: url('./images/hero.png');
+        background-image: url('./images/heromobile.png');
       }
 
       .hero h1 {
@@ -380,9 +385,8 @@
   </header>
 
   <section class="hero">
-    <h1 id="hero-text">Welcome to AK47 ONLINE IDS 🔥 <br>
-      Play Bold. Win Big.  <br>
-      * 5% Bonus On Refill *
+    <h1 id="hero-text"><br>
+      
         
       </h1>
       
